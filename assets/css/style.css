@@ -124,3 +124,38 @@ button.btn.btn-saveCv {
 .content h2 {
     font-size: 24px;
 }
+
+ul.list-category {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.list-category a {
+    color: #000;
+    margin-bottom: 6px;
+}
+
+ul.list-category a:hover {
+    color: #108ffc;
+}
+
+ul.list-category {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.vanban-menu a {
+    background: #108ffc;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 7px 10px;
+}
+
+.vanban-menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.vanban-menu a:hover {
+    background-color: #0769bb;
+}
