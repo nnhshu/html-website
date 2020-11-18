@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Số liệu</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="assets/img/icon/fabicon.png">
+
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/modal-video.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/stellarnav.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="theme-1" ng-app="app" ng-controller="myCtrl">
+
+    <div class="preloader">
+        <div>
+            <div class="nb-spinner"></div>
+        </div>
+    </div>
+
+    <div class="topbar white_bg" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-12 align-self-center">
+                    <div class="top_date_social text-right">
+                        <div class="paper_date">
+                            <p>Thứ hai, 16/11/2020</p>
+                        </div>
+                        <div class="social1">
+                            <ul class="inline">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="lang d-none d-xl-block">
+                            <ul>
+                                <li><a href="#">English <i class="far fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="#">Spanish</a>
+                                        </li>
+                                        <li><a href="#">China</a>
+                                        </li>
+                                        <li><a href="#">Hindi</a>
+                                        </li>
+                                        <li><a href="#">Corian</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="border_black"></div>
+
+    <div class="logo_area white_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 align-self-center">
+                    <div class="logo">
+                        <a href="index-2.html">
+                            <img src="assets/img/logo/logo.png" alt="image">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 align-self-center">
+                    <div class="menu_right">
+                        <form action="">
+                            <div class="form-group form-search">
+                                <input type="text" name="" class="form-control">
+                                <i class="far fa-search"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-menu" id="header"> <a href="#top" class="up_btn up_btn1"><i class="far fa-chevron-double-up"></i></a>
+        <div class="main-nav clearfix is-ts-sticky">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-lg-12">
+                        <div class="newsprk_nav stellarnav">
+                            <ul id="newsprk_menu">
+                                <li>
+                                    <a href="#">Trang chủ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="#">Văn bản</a>
+                                </li>
+                                <li>
+                                    <a href="#">Số liệu thống kê</a>
+                                </li>
+                                <li>
+                                    <a href="">Tuyển dụng</a>
+                                </li>
+                                <li>
+                                    <a href="#">Khảo sát</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bridcrumb-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bridcrumb"> <a href="#">Trang chủ</a> / Giới thiệu</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="archives padding-top-30">
+        <div class="container">
+            <div class="col-12" style="height: 80vh;">               
+                <div id="select-type">                    
+                    <div class="content">
+                        <div>
+                            <span style="font-weight: 700;">Lực lượng lao động từ 15 tuổi trở lên phân theo nhóm tuổi (<span style="color: red;">*</span>)</span>
+                        </div>
+                        <!-- <hr/> -->
+                        <br/>
+                        <div class="row">
+                            <div class="col-4">
+                                <label style="font-weight: 600;">Chọn biểu đồ: </label>
+                                <select class="form-control">
+                                    <option value="0">Tổng số (Nghìn người)</option>
+                                    <option value="1">Cơ cấu (%)</option>
+                                </select>
+                            </div>
+                            <div class="col-4">
+                                <label style="font-weight: 600;"> Năm: </label>
+                                <select class="form-control">
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                </select>
+                            </div>
+                            <div class="col-4">
+                                <label style="font-weight: 600;"> Nhóm tuổi: </label>
+                                <select class="form-control">
+                                    <option value="2000">14-24</option>
+                                    <option value="2001">25-49</option>
+                                    <option value="2002">50+</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-6">
+                                <label style="font-weight: 600;"> Chọn biểu đồ: </label>
+                                <select class="form-control" id="charts-type">                                    
+                                    <option value="col-vertical">Biểu đồ cột dọc</option>
+                                    <option value="circle">Biểu đồ tròn</option>
+                                    <option value="circle-custom">Biểu đồ tròn *</option>
+                                    <!-- <option value="col-horizontal">Biểu đồ cột ngang</option> -->
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-outline-success" onclick="showChart()">Xem biểu đồ</button>
+                    </div>
+                    <br>
+                    <div class="infos" class="row">
+                        <div>
+                            <span style="font-weight: 700;">Thông tin</span>
+                        </div>  
+                        <div class="row">
+                            <div class="col-4">
+                                Thống kê chính thức: <b>Không</b>
+                            </div>    
+                            <div class="col-4">
+                                Đơn vị tính: <b>Không</b>
+                            </div>    
+                            <div class="col-4">
+                                Cập nhật lần cuối: <b>30/07/2020</b> 
+                            </div>   
+                        </div>                      
+                        <div class="row">
+                            <div class="col-4">
+                                Ngày tạo: <b>30/07/2020</b> 
+                            </div>    
+                            <div class="col-4">
+                                Bản quyền: <b>Không</b>
+                            </div>    
+                            <div class="col-4">
+                                Ma trận: <b>V02.33</b>
+                            </div>    
+                        </div>
+
+                    </div>
+                </div>
+                <div id="show-chart" style="display: none;"> 
+                    <div id="chartdiv" style="height: 700px;"></div>
+                    <div style="text-align: center;">
+                        <button class="btn btn-outline-danger" onclick="hideCharts()">Xem Thông tin</button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="footer footer_area1 primay_bg">
+        <div class="container">
+            <div class="cta">
+                <div class="row">
+                    <div class="col-md-4 align-self-center">
+                        <div class="footer_logo logo">
+                            <a href="index-2.html">
+                                <img src="assets/img/logo/footer_logo.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="copyright_menus text-right">
+                            <div class="language"></div>
+                            <div class="copyright_menu inline">
+                                <ul>
+                                    <li><a href="#">About</a>
+                                    </li>
+                                    <li><a href="#">Advertise</a>
+                                    </li>
+                                    <li><a href="#">Privacy & Policy</a>
+                                    </li>
+                                    <li><a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border_white"></div>
+            <div class="space-40"></div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <p>&copy; Copyright 2020, All Rights Reserved</p>
+                    </div>
+                    <div class="col-lg-6 align-self-center">
+                        <div class="copyright_menus text-right">
+                            <div class="language"></div>
+                            <div class="copyright_menu inline">
+                                <ul>
+                                    <li><a href="#">About</a>
+                                    </li>
+                                    <li><a href="#">Advertise</a>
+                                    </li>
+                                    <li><a href="#">Privacy & Policy</a>
+                                    </li>
+                                    <li><a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/plugins/jquery.2.1.0.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/jquery.nav.js"></script>
+    <script src="assets/js/plugins/jquery.waypoints.min.js"></script>
+    <script src="assets/js/plugins/jquery-modal-video.min.js"></script>
+    <script src="assets/js/plugins/owl.carousel.js"></script>
+    <script src="assets/js/plugins/popper.min.js"></script>
+    <script src="assets/js/plugins/circle-progress.js"></script>
+    <script src="assets/js/plugins/stellarnav.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/plugins/angular.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/amcharts4/core.js"></script>
+    <script src="assets/amcharts4/charts.js"></script>
+    <script src="assets/amcharts4/themes/animated.js"></script>
+    <script src="assets/amcharts4/plugins/venn.js"></script>
+    <script>
+        var app = angular.module('app', []);
+        app.controller('myCtrl', function($scope) {
+
+        });
+
+        function showChart(){
+            let type = $("#charts-type").val();
+            if(type == "col-horizontal"){
+                initHor();
+            }
+            if(type == "col-vertical"){
+                init3dChart();
+            }
+            if(type == "circle"){
+                initCircle();
+            }
+            if(type == "circle-custom"){
+                initCircleCustom();
+            }
+
+            $("#show-chart").css("display", "block");
+            $("#select-type").css("display", "none");
+        }
+
+        function hideCharts(){
+            $("#show-chart").css("display", "none");
+            $("#select-type").css("display", "block");
+        }
+
+        function initCircle(){
+            am4core.useTheme(am4themes_animated);
+
+            var data = [
+                { name: "2000", value: 4025 },
+                { name: "2001", value: 1882 },
+                { name: "2002", value: 1809 },
+                { name: "2003", value: 1322 }
+            ];
+    
+            var chart = am4core.create("chartdiv", am4plugins_venn.VennDiagram);
+            var series = chart.series.push(new am4plugins_venn.VennSeries())
+    
+            series.dataFields.category = "name";
+            series.dataFields.value = "value";
+            series.dataFields.intersections = "sets";
+            series.data = data;
+    
+            chart.legend = new am4charts.Legend();
+            chart.legend.marginTop = 40;
+        }
+
+        function initCircleCustom(){
+            am4core.ready(function() {
+
+                // Themes begin
+                am4core.useTheme(am4themes_animated);
+                // Themes end
+                
+                // Create chart instance
+                var chart = am4core.create("chartdiv", am4charts.PieChart);
+                
+                // Add data
+                chart.data = [{
+                    "country": "2000",
+                    "visits": 4025
+                    }, {
+                    "country": "2001",
+                    "visits": 1882
+                    }, {
+                    "country": "2002",
+                    "visits": 1809
+                    }, {
+                    "country": "2003",
+                    "visits": 1322
+                    },{
+                        "country": "2004",
+                        "visits": 2500
+                    }];
+                
+                // Set inner radius
+                chart.innerRadius = am4core.percent(50);
+                
+                // Add and configure Series
+                var pieSeries = chart.series.push(new am4charts.PieSeries());
+                pieSeries.dataFields.value = "visits";
+                pieSeries.dataFields.category = "country";
+                pieSeries.slices.template.stroke = am4core.color("#fff");
+                pieSeries.slices.template.strokeWidth = 2;
+                pieSeries.slices.template.strokeOpacity = 1;
+                
+                // This creates initial animation
+                pieSeries.hiddenState.properties.opacity = 1;
+                pieSeries.hiddenState.properties.endAngle = -90;
+                pieSeries.hiddenState.properties.startAngle = -90;
+                
+                }); // end am4core.ready()
+        }
+
+        function init3dChart(){
+            am4core.ready(function() {
+
+                // Themes begin
+                am4core.useTheme(am4themes_animated);
+                // Themes end
+
+                // Create chart instance
+                var chart = am4core.create("chartdiv", am4charts.XYChart3D);
+
+                // Add data
+                chart.data = [{
+                    "country": "2000",
+                    "visits": 4025
+                    }, {
+                    "country": "2001",
+                    "visits": 1882
+                    }, {
+                    "country": "2002",
+                    "visits": 1809
+                    }, {
+                    "country": "2003",
+                    "visits": 1322
+                    },{
+                        "country": "2004",
+                        "visits": 2500
+                    }];
+
+                // Create axes
+                let categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+                categoryAxis.dataFields.category = "country";
+                categoryAxis.renderer.labels.template.rotation = 270;
+                categoryAxis.renderer.labels.template.hideOversized = false;
+                categoryAxis.renderer.minGridDistance = 20;
+                categoryAxis.renderer.labels.template.horizontalCenter = "right";
+                categoryAxis.renderer.labels.template.verticalCenter = "middle";
+                categoryAxis.tooltip.label.rotation = 270;
+                categoryAxis.tooltip.label.horizontalCenter = "right";
+                categoryAxis.tooltip.label.verticalCenter = "middle";
+
+                let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+                valueAxis.title.text = "Nghìn người";
+                valueAxis.title.fontWeight = "bold";
+
+                // Create series
+                var series = chart.series.push(new am4charts.ColumnSeries3D());
+                series.dataFields.valueY = "visits";
+                series.dataFields.categoryX = "country";
+                series.name = "Visits";
+                series.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+                series.columns.template.fillOpacity = .8;
+
+                var columnTemplate = series.columns.template;
+                columnTemplate.strokeWidth = 2;
+                columnTemplate.strokeOpacity = 1;
+                columnTemplate.stroke = am4core.color("#FFFFFF");
+
+                columnTemplate.adapter.add("fill", function(fill, target) {
+                return chart.colors.getIndex(target.dataItem.index);
+                })
+
+                columnTemplate.adapter.add("stroke", function(stroke, target) {
+                return chart.colors.getIndex(target.dataItem.index);
+                })
+
+                chart.cursor = new am4charts.XYCursor();
+                chart.cursor.lineX.strokeOpacity = 0;
+                chart.cursor.lineY.strokeOpacity = 0;
+            }); // end am4core.ready()
+        }
+
+        function initHor(){
+            am4core.ready(function() {
+
+                // Themes begin
+                am4core.useTheme(am4themes_animated);
+                // Themes end
+                
+                var chart = am4core.create("chartdiv", am4charts.XYChart);
+                chart.padding(40, 40, 40, 40);
+                
+                var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+                categoryAxis.renderer.grid.template.location = 0;
+                categoryAxis.dataFields.category = "network";
+                categoryAxis.renderer.minGridDistance = 1;
+                categoryAxis.renderer.inversed = true;
+                categoryAxis.renderer.grid.template.disabled = true;
+                
+                var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+                valueAxis.min = 0;
+                
+                var series = chart.series.push(new am4charts.ColumnSeries());
+                series.dataFields.categoryY = "visits";
+                series.dataFields.valueX = "visits";
+                series.tooltipText = "{valueX.value}"
+                series.columns.template.strokeOpacity = 0;
+                series.columns.template.column.cornerRadiusBottomRight = 5;
+                series.columns.template.column.cornerRadiusTopRight = 5;
+                
+                var labelBullet = series.bullets.push(new am4charts.LabelBullet())
+                labelBullet.label.horizontalCenter = "left";
+                labelBullet.label.dx = 10;
+                labelBullet.label.text = "{values.valueX.workingValue.formatNumber('#.0as')}";
+                labelBullet.locationX = 1;
+                
+                // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
+                series.columns.template.adapter.add("fill", function(fill, target){
+                  return chart.colors.getIndex(target.dataItem.index);
+                });
+                
+                categoryAxis.sortBySeries = series;
+                chart.data = [{
+                    "country": "2000",
+                    "visits": 4025
+                    }, {
+                    "country": "2001",
+                    "visits": 1882
+                    }, {
+                    "country": "2002",
+                    "visits": 1809
+                    }, {
+                    "country": "2003",
+                    "visits": 1322
+                    },{
+                        "country": "2004",
+                        "visits": 2500
+                    }];
+            })
+        }
+    </script>
+</body>
+
+</html>
