@@ -8618,7 +8618,7 @@ a.up_btn {
 }
 
 .widget-title {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -8814,6 +8814,7 @@ a.social_medium {
 }
 
 .single_post_text h4 a {
+    font-size: 14px;
     color: #17222b;
     font-weight: 500
 }
@@ -9037,9 +9038,9 @@ span.tranding {
 }
 
 .post_type3 .single_post_text a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 24px
+    line-height: 24px;
 }
 
 .post_img.number {
@@ -9614,7 +9615,7 @@ span.tranding {
 }
 
 .footer .cta {
-    padding: 70px 0 40px
+    padding: 40px 0;
 }
 
 .footer .cta .social2 {

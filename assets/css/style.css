@@ -35,6 +35,32 @@
     padding-top: 20px;
 }
 
+.event-scroll {
+    overflow-y: scroll;
+    height: 150px;
+    border-top: 3px solid #1090fd;
+    padding-top: 20px;
+}
+
+.report-scroll {
+    margin-top: 20px;
+}
+
+.post-box {
+    overflow-y: scroll;
+    height: 150px;
+    border-top: 3px solid #1090fd;
+}
+
+.event-canvas {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.event-canvas ul li a {
+    font-size: 14px;
+}
+
 .article {
     overflow-x: scroll
 }
@@ -69,4 +95,32 @@
 
 .page-job-detail__detail {
     font-size: 14px;
+}
+
+.wrapper {
+    margin-top: 50px;
+}
+
+.heading {
+    background-color: #108ffc;
+}
+
+.heading h2 {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.info-detail {
+    font-size: 14px;
+}
+
+button.btn.btn-saveCv {
+    background-color: #f7941d;
+    border-color: #f7941d;
+    color: #FFF;
+}
+
+.content h2 {
+    font-size: 24px;
 }
