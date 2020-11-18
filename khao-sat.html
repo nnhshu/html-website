@@ -79,7 +79,7 @@
                 <div class="col-lg-4 align-self-center">
                     <div class="logo">
                         <a href="index-2.html">
-                            <img src="assets/img/logo/logo.png" alt="image">
+                            <img src="assets/img/logo(1).png" alt="image">
                         </a>
                     </div>
                 </div>
@@ -108,22 +108,22 @@
                                     <a href="#">Trang chủ</a>
                                 </li>
                                 <li>
-                                    <a href="#">Giới thiệu</a>
+                                    <a href="/gioi-thieu.html">Giới thiệu</a>
                                 </li>
                                 <li>
-                                    <a href="#">Tin tức</a>
+                                    <a href="/category.html">Tin tức</a>
                                 </li>
                                 <li>
                                     <a href="#">Văn bản</a>
                                 </li>
                                 <li>
-                                    <a href="#">Số liệu thống kê</a>
+                                    <a href="/so-lieu.html">Số liệu thống kê</a>
                                 </li>
                                 <li>
-                                    <a href="">Tuyển dụng</a>
+                                    <a href="/tuyen-dung.html">Tuyển dụng</a>
                                 </li>
                                 <li>
-                                    <a href="#">Khảo sát</a>
+                                    <a href="/khao-sat.html">Khảo sát</a>
                                 </li>
                             </ul>
                         </div>
@@ -147,57 +147,23 @@
         <div class="container">
             <div class="cta">
                 <div class="row">
-                    <div class="col-md-4 align-self-center">
-                        <div class="footer_logo logo">
-                            <a href="index-2.html">
-                                <img src="assets/img/logo/footer_logo.png" alt="logo">
-                            </a>
+                    <div class="col-md-6 col-12 info-detail text-white">
+                        <div>
+                            <strong>© CỔNG THÔNG TIN ĐIỆN TỬ BỘ LAO ĐỘNG - THƯƠNG BINH VÀ XÃ HỘI</strong>
                         </div>
+                        Địa chỉ: 12 Ngô Quyền, Hoàn Kiếm, Hà Nội <br> Điện thoại: (024) 62703645 Fax:(024) 62703609<br> Email: banbientap@molisa.gov.vn<br> Đơn vị quản lý &amp; vận hành: Trung tâm Thông tin (LASIC)
+                        <p></p>
                     </div>
-                    <div class="col-md-8">
-                        <div class="copyright_menus text-right">
-                            <div class="language"></div>
-                            <div class="copyright_menu inline">
-                                <ul>
-                                    <li><a href="#">About</a>
-                                    </li>
-                                    <li><a href="#">Advertise</a>
-                                    </li>
-                                    <li><a href="#">Privacy & Policy</a>
-                                    </li>
-                                    <li><a href="#">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-md-6 col-12 info-detail text-white">
+                        <div>
+                            <strong>Ý kiến phản ánh, kiến nghị của tổ chức, cá nhân về quy định hành chính của Bộ </strong>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border_white"></div>
-            <div class="space-40"></div>
-        </div>
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 align-self-center">
-                        <p>&copy; Copyright 2020, All Rights Reserved</p>
-                    </div>
-                    <div class="col-lg-6 align-self-center">
-                        <div class="copyright_menus text-right">
-                            <div class="language"></div>
-                            <div class="copyright_menu inline">
-                                <ul>
-                                    <li><a href="#">About</a>
-                                    </li>
-                                    <li><a href="#">Advertise</a>
-                                    </li>
-                                    <li><a href="#">Privacy & Policy</a>
-                                    </li>
-                                    <li><a href="#">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <p>
+                            Email: tiepnhanykien@molisa.gov.vn - Điện thoại:0439388407
+                            <br>Bản quyền thuộc về Bộ Lao động - Thương binh và Xã hội (LĐ-TBXH)
+                            <br>Giấy phép: Số 27/GP-BC ngày 27/3/2005
+                            <br>Ghi rõ nguồn "Cổng Thông tin điện tử Bộ LĐ-TBXH" hoặc http://www.molisa.gov.vn khi phát hành lại thông tin từ nguồn này.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -224,15 +190,32 @@
     <script>
         am4core.useTheme(am4themes_animated);
 
-        var data = [
-            { name: "A", value: 10 },
-            { name: "B", value: 10 },
-            { name: "C", value: 10 },
-            { name: "X", value: 2, sets: ["A", "B"] },
-            { name: "Y", value: 2, sets: ["A", "C"] },
-            { name: "Z", value: 2, sets: ["B", "C"] },
-            { name: "Q", value: 1, sets: ["A", "B", "C"] }
-        ];
+        var data = [{
+            name: "A",
+            value: 10
+        }, {
+            name: "B",
+            value: 10
+        }, {
+            name: "C",
+            value: 10
+        }, {
+            name: "X",
+            value: 2,
+            sets: ["A", "B"]
+        }, {
+            name: "Y",
+            value: 2,
+            sets: ["A", "C"]
+        }, {
+            name: "Z",
+            value: 2,
+            sets: ["B", "C"]
+        }, {
+            name: "Q",
+            value: 1,
+            sets: ["A", "B", "C"]
+        }];
 
         var chart = am4core.create("chartdiv", am4plugins_venn.VennDiagram);
         var series = chart.series.push(new am4plugins_venn.VennSeries())
